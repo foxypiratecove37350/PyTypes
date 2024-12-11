@@ -42,6 +42,15 @@ pip install ...
 
 ## Usage
 
+```shell
+pytypes {command} [file]
+
+command:
+	- execute (default): Interpret [file] (if no [file] provided, then start a REPL)
+	- type-check: Type check <file>
+	- transpile: Transpile <file> to Python code
+```
+
 ### Basic Example
 
 ```pytypes
