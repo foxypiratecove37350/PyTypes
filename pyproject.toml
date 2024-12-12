@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pytypes-lang"
+description = "Enhanced Python with static/runtime type checking and new language features"
+readme = "README.md"
+requires-python = ">= 3.9" # Not tested
+authors = [
+	{name = "foxy pirate cove / Fnaf"}
+]
+keywords = ["pytypes", "types", "typing", "extension"]
+dynamic = ["version"]
+classifiers = [
+	"Development Status :: 3 - Alpha",
+	"Intended Audience :: Developers",
+	"License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
+	"Programming Language :: Python :: 3",
+]
+
+[tool.hatch.version]
+path = "pytypes/__init__.py"
+
+[project.urls]
+homepage = "https://github.com/foxypiratecove37350/PyTypes"
+repository = "https://github.com/foxypiratecove37350/PyTypes"
+documentation = "https://github.com/foxypiratecove37350/PyTypes/tree/main/docs"
+issues = "https://github.com/foxypiratecove37350/PyTypes/issues"
+changelog = "https://github.com/foxypiratecove37350/PyTypes/releases"
+releasenotes = "https://github.com/foxypiratecove37350/PyTypes/releases/latest"
+
+[project.scripts]
+pytypes = "pytypes:main"
+
+[tool.hatch.build]
+packages = ["pytypes"]
+
+[tool.black-and-white]
+indent_type = "tabs"
+
+[tool.hatch.dev.dependencies]
+black-and-white = "^0.1.0"

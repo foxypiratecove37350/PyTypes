@@ -1,11 +1,6 @@
 
 # PyTypes
 
-> [!WARNING]
-> PyTypes isn't currently published, please don't install it.
-> If you see a package called PyTypes, then it's not that project and can be a
-> malware, or an unrelated project
-
 PyTypes is a powerful Python extension that brings TypeScript-like type safety
 and additional features to Python. With PyTypes, you can enjoy enhanced type
 enforcement, better code organization, and new language features that make your
@@ -31,13 +26,8 @@ Python code more robust and maintainable.
 
 To install PyTypes, use `pip`:
 
-> [!WARNING]
-> PyTypes isn't currently published, please don't install it.
-> If you see a package called PyTypes, then it's not that project and can be a
-> malware, or an unrelated project
-
 ```shell
-pip install ...
+pip install pytypes-lang
 ```
 
 ## Usage
