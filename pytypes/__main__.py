@@ -3,8 +3,12 @@
 Author: foxy pirate cove / Fnaf
 License: GNU General Public License v2.0 only (GPL-2.0)
 Version: 3.13.1
+
+Module Entrypoint
 """
 
-__version__ = '3.13.1'
-__author__ = "foxy pirate cove / Fnaf"
-__license__ = "GPL-2.0"
+from .cli import main
+
+
+if __name__ == "__main__":
+	main()
