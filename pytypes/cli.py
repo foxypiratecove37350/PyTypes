@@ -40,7 +40,6 @@ def main() -> None:
 	)
 	command_execute.add_argument(
 		'file',
-		metavar='<file>',
 		nargs='?',
 		type=Path,
 		help='File to execute. Start an interractive REPL if not provided'
