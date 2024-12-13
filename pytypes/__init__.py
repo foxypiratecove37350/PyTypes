@@ -8,3 +8,10 @@ Version: 3.13.1
 __version__ = '3.13.1'
 __author__ = "foxy pirate cove / Fnaf"
 __license__ = "GPL-2.0"
+
+from .user_api import (
+	Auto,
+	disable_type_enforcement,
+	enable_type_enforcement,
+	weaken_type_enforcement
+)
