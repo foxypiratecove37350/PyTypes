@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   fill="none"
+   height="512"
+   viewBox="0 0 512 512"
+   width="512"
+   version="1.1"
+   id="svg2"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <rect
+     fill="#3178c6"
+     height="512"
+     rx="50"
+     width="512"
+     id="rect2"
+     style="fill:#306998;fill-opacity:1"
+     x="0"
+     y="0"
+     ry="50" />
+  <path
+     d="m 175.23823,394.05173 v 72.94845 H 124.78351 V 242.99999 h 77.94707 q 41.86336,0 63.73227,18.27617 22.02513,18.27617 22.02513,54.04746 0,37.17716 -24.68064,57.95263 -24.52443,20.77548 -65.91916,20.77548 z m 0,-112.31251 v 73.57328 h 21.08788 q 18.74479,0 28.89821,-9.84101 10.15343,-9.84101 10.15343,-28.27339 0,-17.02651 -9.99722,-26.2427 -9.84101,-9.21618 -28.27339,-9.21618 z m 294.76176,2.3431 H 410.01668 V 467.00018 H 359.40575 V 284.08232 h -59.98331 v -41.08233 h 170.57755 z"
+     id="text2"
+     style="font-weight:bold;font-size:319.911px;font-family:'Segoe UI Variable';-inkscape-font-specification:'Segoe UI Variable Bold';text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:60;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:96;paint-order:markers stroke fill"
+     aria-label="PT" />
+</svg>

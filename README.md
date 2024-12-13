@@ -1,5 +1,8 @@
-
-# PyTypes
+<div align="center">
+	<img src="./logo.svg" alt="PyTypes logo" width="50">
+	<h1>PyTypes</h1>
+	<h3>Enhanced Python with static/runtime type checking and new language features</h3>
+</div>
 
 PyTypes is a powerful Python extension that brings TypeScript-like type safety
 and additional features to Python. With PyTypes, you can enjoy enhanced type
@@ -32,18 +35,28 @@ pip install pytypes-lang
 
 ## Usage
 
-```shell
-pytypes {command} [file]
+```txt
+usage: pytypes [-h] [--version] <command> <file>
 
-command:
-	- execute (default): Interpret [file] (if no [file] provided, then start a REPL)
-	- type-check: Type check <file>
-	- transpile: Transpile <file> to Python code
+Enhanced Python with static/runtime type checking and new language features
+
+positional arguments:
+  <command>
+    execute      Execute a PyTypes file or start a REPL
+    type-check   Type-check a PyTypes file.
+    transpile    Transpile a PyTypes file to Python.
+  <file>         File to execute. Start an interractive REPL if not provided when the cmmand is execute
+
+options:
+  -h, --help     show this help message and exit
+  --version, -V  show program's version number and exit
 ```
 
 ### Basic Example
 
-```pytypes
+```python
+# main.pyt
+
 # Define a namespace
 namespace MyNamespace:
 	from pytypes import Auto, disable_type_enforcement
@@ -53,7 +66,7 @@ namespace MyNamespace:
 		public name: str
 		private _age: int
 
-		def __init__(self, name: str, age: int):
+		def __init__(self, name: str, age: int) -> None:
 			self.name = name
 			self._age = age
 
